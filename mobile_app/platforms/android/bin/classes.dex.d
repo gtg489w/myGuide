@@ -1,0 +1,27 @@
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes.dex : \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/megster/cordova/BluetoothSerial$1.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/megster/cordova/BluetoothSerial.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/megster/cordova/BluetoothSerialService$AcceptThread.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/megster/cordova/BluetoothSerialService$ConnectedThread.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/megster/cordova/BluetoothSerialService$ConnectThread.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/megster/cordova/BluetoothSerialService.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/slalom/sonar/BuildConfig.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/slalom/sonar/R$attr.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/slalom/sonar/R$drawable.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/slalom/sonar/R$layout.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/slalom/sonar/R$string.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/slalom/sonar/R$xml.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/slalom/sonar/R.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/com/slalom/sonar/Sonar.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/api/Dummy.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/BluetoothError.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/BluetoothPlugin$1.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/BluetoothPlugin.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/BluetoothWrapper$1.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/BluetoothWrapper$2.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/BluetoothWrapper$ConnectionAttempt.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/BluetoothWrapper$ConnectionManager.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/BluetoothWrapper$EConnectionType.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/BluetoothWrapper.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/classes/org/apache/cordova/bluetooth/Pair.class \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/dev/sonar/platforms/android/bin/dexedLibs/cordova-3.0.0-396add4ec0c0dfebd4857be09f7737e2.jar \
