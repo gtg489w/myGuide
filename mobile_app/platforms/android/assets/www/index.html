@@ -8,23 +8,28 @@
         <title>Hello World</title>
         <style>
 #bluetooth_list {
-    font-size: 32px;
+    font-size: 120px;
     width: 100%;
-    border: 1px solid #abcdef;
     border-bottom: 0px;
+    border-top: 1px solid #fff;
 }
 #bluetooth_list .device {
     padding: 20px;
-    border-bottom: 1px solid #abcdef;
+    border-bottom: 1px solid #fff;
+    color: #fff;
 }
         </style>
     </head>
     <body>
-        <h1>3rd Eye</h1>
-        <div style="font-size: 44px;" id="data_feet"></div>
-        <div style="font-size: 44px;" id="data_inches"></div>
-        <div id="bluetooth_list"></div>
-        <h2 id="status"></h2>
+        <div style="position: absolute; bottom: 0px; width: 100%; left: 0px;">
+            
+            <div style="font-size: 300px; font-weight: 300; padding-bottom: 100px; color: #92eff4; text-align: center;" id="data_inches"></div>
+            <div style="padding: 0px 0px 10px 20px; color: #fff; font-size: 60px;">Devices</div>
+            <div id="bluetooth_list"></div>
+            <h2 style="font-size: 44px; font-weight: normal; text-align: right; width: 100%;">
+                <div style="padding: 4px 40px;" id="status"></div>
+            </h2>
+        </div>
 
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

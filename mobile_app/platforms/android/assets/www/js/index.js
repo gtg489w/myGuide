@@ -39,6 +39,12 @@ handleInvalidData = function() {
     $('#data_inches').html('');
 };
 
+var soundAlert = function() {
+    navigator.notification.vibrate(100);
+};
+
+var currentState = 'off';
+var interval;
 var handleData = function(data) {
     var feet = ' feet';
     var inches = ' inches';
@@ -51,12 +57,37 @@ var handleData = function(data) {
     $('#data_feet').html(data.feet + feet);
     $('#data_inches').html(data.inches + inches);
 
-    if(data.feet < 6) {
-        navigator.notification.vibrateWithPattern([0, 100, 100, 200, 100, 400, 100, 800]);
-        //navigator.notification.vibrate(10000);
-        //navigator.notification.cancelVibration()
-    } else {
-        //navigator.notification.cancelVibration();
+    var newState = 'off';
+    if(data.feet < 5) {
+        newState = Math.floor(data.inches / 5) * 50;
+    }
+
+    if(newState != currentState) {
+        clearInterval(interval);
+        if(newState != 'off') {
+            interval = setInterval(soundAlert, newState);
+            soundAlert();
+        } else {
+            // let's store distance data
+            var attData = '{"value":"'+data.inches+'"}';
+             $.ajax({
+                type: "PUT",
+                dataType: 'json',
+                url: 'https://api-m2x.att.com/v1/feeds/e7e3b4bd94e77fbc616ad36a71b829ba/streams/myguide',
+                headers: {
+                    'X-M2X-KEY': 'ea34732eb1975f579eef1dc567a0eb1f',
+                    'Content-Type': 'application/json'
+                },
+                data: attData,
+                success: function(data) {
+                    //log('data logged');
+                },
+                error: function(xhr, status, err) {
+                    log('data log fail');
+                }
+            });
+        }
+        currentState = newState;
     }
 };
 
@@ -70,9 +101,6 @@ var app = {
     onDeviceReady: function() {
         $(function() {
             listBluetoothDevices();
-            //navigator.notification.vibrate(10000);
-            //navigator.notification.cancelVibration()
-
         });
     }
 };

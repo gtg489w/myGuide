@@ -26,6 +26,7 @@
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/cordova.js \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/cordova_plugins.js \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/css \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/images \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/img \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/index.html \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/js \
@@ -57,6 +58,7 @@
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/audio/click8.wav \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/audio/click9.wav \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/css/index.css \
+/Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/images/background.png \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/img/logo.png \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/js/index.js \
 /Users/briano/Documents/AT&T/Hackathon2014Atlanta2/repo/sonar/mobile_app/platforms/android/assets/www/js/jquery.js \
