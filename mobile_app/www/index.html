@@ -6,12 +6,26 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
+        <style>
+#bluetooth_list {
+    font-size: 32px;
+    width: 100%;
+    border: 1px solid #abcdef;
+    border-bottom: 0px;
+}
+#bluetooth_list .device {
+    padding: 20px;
+    border-bottom: 1px solid #abcdef;
+}
+        </style>
     </head>
     <body>
-        <div class="app">
-            <h1>3rd Eye</h1>
-            <audio src="audio/click10.wav" controls></audio>
-        </div>
+        <h1>3rd Eye</h1>
+        <div style="font-size: 44px;" id="data_feet"></div>
+        <div style="font-size: 44px;" id="data_inches"></div>
+        <div id="bluetooth_list"></div>
+        <h2 id="status"></h2>
+
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
