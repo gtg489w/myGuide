@@ -1,13 +1,6 @@
-var app = {
-    initialize: function() {
-        this.bindEvents();
-    },
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-    },
-    onDeviceReady: function() {
-        $(function() {
-            var context = new window.webkitAudioContext();
+/*
+
+var context = new window.webkitAudioContext();
 
             var osc = context.createOscillator();
             osc.frequency.value = 440;
@@ -21,7 +14,7 @@ var app = {
                         app.macAddress,  // device to connect to
                         app.openPort,    // start listening if you succeed
                         app.showError    // show the error if you fail
-                    );*/
+                    );*
                     alert(device.address);
                     bluetoothSerial.connect(device.address, function() {
                         alert('success');
@@ -36,6 +29,20 @@ var app = {
             }, function() {
                 console.log('fail');
             });
+
+*/
+
+
+var app = {
+    initialize: function() {
+        this.bindEvents();
+    },
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+    },
+    onDeviceReady: function() {
+        $(function() {
+            
         });
     }
 };
