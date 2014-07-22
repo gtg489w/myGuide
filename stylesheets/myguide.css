@@ -1,0 +1,34 @@
+html, body {
+	background: #1d797e;
+}
+
+h1,h2,h3,p {
+	color: #fff;
+}
+a {
+	color: #92eff4;
+}
+img {
+	border: 0px;
+	margin: 0px;
+}
+.clear {
+	clear: both;
+	line-height: 1px;
+	height: 1px;
+	margin: 0px;
+}
+.margintop0 {
+	margin-top: 0px;
+}
+.title {
+	border: 0px;
+	font-size: 80px;
+	font-family: 'Roboto', sans-serif;
+}
+.serif {
+	font-family: Arvo, Monaco, serif;
+}
+.font32 {
+	font-size: 32px;
+}
